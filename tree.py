@@ -7,9 +7,10 @@ def arm_s(n):
             a = int(n / 10)
             r = r + (n % 10)**3
             n = a
-    if r == k:
-        print(r)
+    if r == number:
+        print('this is an armstrong number ')
+    else:
+        print('not an armstrong number ')
 
-print('The armstrong numbers are :')
-for k in range(100,1000,1):
-    arm_s(k)
+number = int(input('enter the number'))
+arm_s(number)
